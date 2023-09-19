@@ -59,7 +59,7 @@ export const calculateTotalSaturatedFat = (donuts) => {
 };
 
 export const calculateAverageVitaminPercentages = (donuts) => {
-    // const totalDonuts = donuts.length;
+    /// const totalDonuts = donuts.length;
     const vitaminAArray = [];
     const vitaminCArray = [];
     const calciumArray = [];
