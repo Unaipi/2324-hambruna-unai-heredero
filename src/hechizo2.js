@@ -86,7 +86,7 @@ export const calculateAverageVitaminPercentages = (donuts) => {
             return 0;
         }
 
-        const totalPercentage = vitaminArray.reduce((acc, cur) => acc + cur);
+        const totalPercentage = vitaminArray.reduce((acc, cur) => acc + cur, 0);
         return totalPercentage / vitaminArray.length;
     };
 
